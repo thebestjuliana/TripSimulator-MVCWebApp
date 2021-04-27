@@ -1,0 +1,30 @@
+--Create Database TripSimulator;
+
+--CREATE TABLE CARS(
+--carId INT NOT NULL IDENTITY (1,1) PRIMARY KEY, 
+--mpg INT NOT NULL,
+--tankSize INT NOT NULL,
+--);
+
+--CREATE TABLE TRIPS (
+--tripId INT NOT NULL IDENTITY (1,1) PRIMARY KEY,
+--carId INT NOT NULL FOREIGN KEY REFERENCES CARS(carId),
+--duration INT NOT NULL,
+--miles INT NOT NULL,
+--roundTrip BIT NOT NULL,
+--);
+
+--CREATE TABLE PURCHASES(
+--purchaseId INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+--[description] NVARCHAR(50) NOT NULL,
+--businessOrPersonal BIT NOT NULL,
+--);
+--SELECT * FROM CARS;
+--SELECT * FROM PURCHASES;
+--SELECT * FROM TRIPS;
+
+--ALTER TABLE CARS
+--ADD carName NVARCHAR(20);
+--Select* From Cars;
+
+ALTER TABLE 

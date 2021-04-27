@@ -1,0 +1,13 @@
+﻿@model Car
+
+<form method="post"asp-route-carId="@Model.CarId">
+    <label>Car Name</label>
+    <input type="text" name="CarName" value="@Model.CarName" placeholder="@Model.CarName"/>
+    <br />
+    <label>Miles per Gallon</label>
+    <input type="number" name="mpg" value="@Model.Mpg" placeholder="@Model.Mpg"/>
+    <br />
+    <label>Gas Tank Capacity</label>
+    <input type="number" name="TankSize" value="@Model.TankSize" placeholder="@Model.TankSize" />
+    <input type="submit" />
+</form>
